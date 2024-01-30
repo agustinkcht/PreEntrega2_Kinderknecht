@@ -1,0 +1,35 @@
+.counter {
+    border: solid 1px;
+    border-radius: 8px;
+
+}
+
+.counter p{
+    font-size: 50px;
+    margin: 0 auto;
+
+}
+
+.cant-val{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns-interact{
+    display: flex;
+    justify-content: space-around;
+
+}
+.increase, .decrease{
+    width: 30%;
+    background-color: rgba(76, 0, 130, 0.227);
+    border-radius: 4px;
+}
+
+.btn-add{
+    background-color: rgba(76, 0, 130, 0.227);
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
